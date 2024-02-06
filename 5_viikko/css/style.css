@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url('/img/DBP\ Watercolor\ Background\ 5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5%;
+}
+
+
+img {
+    width: 200px;
+    padding: 20% 0;
+}
+
+#otsikko{
+    margin: 5% 20%;
+    padding: 5%;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    object-position: center;
+    align-items: center;
+}
+
+#otsikko header {
+    padding: 10px;
+    font-size: 500%;
+    background-color: antiquewhite;
+    color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url('/img/Elegant-black-patterns-08.jpg');
+    border-radius: 30px;
+    background-clip: text;
+    font-weight: bold;
+    opacity: 1;
+    text-align: center;
+    
+}
+
+button {
+    font-size: 150%;
+    width: 200px;
+    font-family: fantasy;
+    border-radius: 30px;
+}
+
+p {
+    padding: 10px;
+}
